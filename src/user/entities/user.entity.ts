@@ -1,6 +1,6 @@
 import { Column, DeleteDateColumn, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
 import { Roles } from "../enums/roles.enum";
-import { Task } from "src/tasks/entities/task.entity";
+import { Task } from "../../tasks/entities/task.entity";
 
 @Entity()
 export class User {
